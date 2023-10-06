@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon"type="image/png"sizes="32x32"href="./images/favicon-32x32.png"/>
+    <title>Frontend Mentor | Social proof section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Big+Shoulders+Display:wght@300&family=Inter:wght@500&family=Kumbh+Sans&family=League+Spartan:wght@700&family=Lexend+Deca&family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
+    <style>
+      *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+      }
+      .main{
+        min-height:100vh;
+        width:100%;
+      }
+      .bg-top{
+        background:url(bg-pattern-top-desktop.svg);
+        background-repeat:no-repeat;
+        height:500px;
+        position:relative;
+      }
+      .bg-bottom{
+        background:url(bg-pattern-bottom-desktop.svg);
+        background-repeat:no-repeat;
+        height:692px;
+        margin-top: -391px;
+        margin-left: 236px;
+      }
+      .upper-part{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+      }
+      .heading h1{
+        color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-size:50px;
+        position:absolute;
+        top:119px;
+        left:156px;
+        right:731px;
+      }
+      .heading p {
+        color: hsl(303, 10%, 53%);
+        font-size:15px;
+        font-family: 'League Spartan', sans-serif;
+        position:absolute;
+        top:290px;
+        left:159px;
+        right:731px;
+        line-height:22px;
+        font-weight:500;
+      }
+      button{
+        height:54px;
+        width:422px;
+        position:absolute;
+        left:623px;
+        top:139px;
+        border-radius:10px;
+        background:hsl(300, 24%, 96%);
+        border:none;
+      }
+      button a img{
+        margin:2px;
+      }
+      button span{
+        padding-left:45px;
+        font-size: 17px;
+         color: hsl(300, 43%, 22%);
+        font-family: 'League Spartan', sans-serif;
+        font-weight:700;
+      }
+      .btn2{
+        position:absolute;
+        left:662px;
+        top:206px;
+      }
+      .btn3{
+        position:absolute;
+        left:704px;
+        top:272px;
+      }
+      .card1{
+        height:220px;
+        width:330px;
+        background:hsl(300, 43%, 22%);
+        position:absolute;
+        bottom:190px;
+        left:158px;
+        border-radius:10px;
+      }
+       .card img{
+        border-radius:40px;
+        height:43px;
+        margin:35px;
+      }
+       .card h2{
+        color:hsl(300, 24%, 96%);
+        margin:-78px 96px;
+        font-size:15px;
+        font-family: 'League Spartan', sans-serif;
+      }
+       .card h3{
+        color: hsl(333, 80%, 67%);
+        margin:79px 96px;
+        font-size:15px;
+      }
+       .card p{
+        color: hsl(0, 0%, 100%);
+        margin:-47px 31px;
+        font-weight:500;
+      }
+      .card2{
+        height:220px;
+        width:330px;
+        background:hsl(300, 43%, 22%);
+        position:absolute;
+        bottom:165px;
+        left:517px;
+        border-radius:10px;
+      }
+      .card3{
+         height:220px;
+        width:330px;
+        background:hsl(300, 43%, 22%);
+        position:absolute;
+        bottom:144px;
+        left:873px;
+        border-radius:10px;
+      }
+    </style>
+  </head>
+  <body>
+   <section class="main">
+    <div class="bg-top">
+      <div class="heading">
+      <h1>10,000+ of our users love our products.</h1>
+      <p>We only provide great products combined with excellent customer service.
+      See what our satisfied customers are saying about our services.</p>
+      <button><a>
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <span>Rated 5 Stars in Reviews</span></a></button>
+        <button class="btn2"><a>
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <span> Rated 5 Stars in Report Guru</span></a></button>
+        <button class="btn3"><a>
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <img src="icon-star.svg">
+        <span> Rated 5 Stars in BestTech</span></a></button>
+    </div></div>
+    <div class="bg-bottom"></div>
+    <div class="card">
+    <div class="card1">
+      <img src="image-colton.jpg">
+      <h2> Colton Smith</h2>
+      <h3>Verified Buyer</h3>
+      <p>"We needed the same printed design as the one we had ordered a week prior.
+       Not only did they find the original order, but we also received it in time.
+       Excellent!"</p>
+    </div>
+    <div class="card2">
+      <img src="image-irene.jpg">
+      <h2>Irene Roberts</h2>
+      <h3>Verified Buyer</h3>
+      <p>"Customer service is always excellent and very quick turn around. Completely
+      delighted with the simplicity of the purchase and the speed of delivery."</p>
+    </div>
+    <div class="card3">
+      <img src="image-anne.jpg">
+      <h2> Anne Wallace</h2>
+      <h3>Verified Buyer</h3>
+      <p> "Put an order with this company and can only praise them for the very high
+      standard. Will definitely use them again and recommend them to everyone!"</p>
+    </div></div>
+   </section>
+  </body>
+</html>
